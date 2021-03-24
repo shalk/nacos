@@ -122,7 +122,7 @@ public class ServerListManager implements ServerListFactory, Closeable {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return null;
+        return new ArrayList<>();
     }
     
     private void refreshServerListIfNeed() {
